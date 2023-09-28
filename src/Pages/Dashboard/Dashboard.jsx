@@ -7,7 +7,6 @@ const Dashboard = () => {
     <p>Hello</p>
     <p>Hello</p>
     <p>Hello</p>
-    psdadssdasak;kl
     <p>Hello</p>
     <p>Hello</p>
     <p>Hello</p>
