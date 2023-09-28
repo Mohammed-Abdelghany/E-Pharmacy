@@ -1,0 +1,35 @@
+
+
+
+
+.rectangle {
+    width: 350px;
+    height: 150px;
+    background-color: #1d3242;
+    border: 1px solid #ccc;
+    border-radius: 35px;
+    cursor: pointer;
+
+
+
+}
+.dd {
+    color: aliceblue;
+    font-size: 38;
+    text-decoration: none;
+    padding-left:80;
+    padding-top: 10;
+    position: absolute;
+    font-style: italic;
+    
+
+}
+.image{
+    width: 80;
+    height: 60;
+ position: absolute;
+ padding-left:180;
+ padding-top: 40;
+   
+    
+}
