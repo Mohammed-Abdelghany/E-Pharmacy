@@ -8,7 +8,10 @@ import style from "./Login.module.css";
 import { Link } from "react-router-dom";
 import { useFormik } from "formik";
 import * as yup from "yup";
+import ButtonSubmit from './../../components/ButtonSubmit';
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 const Login = () => {
+  useDocumentTitle('تسجيل الدخول');
   const formik = useFormik({
     validateOnMount : true,
     initialValues: {
@@ -59,9 +62,9 @@ const Login = () => {
               icon={<AiFillLock />}
             />
           <div  className="coll mt-2 d-flex flex-row justify-content-between align-items-center">
-            <Button type="submit" className="btn-main btn" disabled={!formik.isValid}>
+            <ButtonSubmit type="submit" className="btn-main btn" disabled={!formik.isValid}>
               تسجيل الدخول
-            </Button>
+            </ButtonSubmit>
             <Link className="m-0" href="#">
               نسيت كلمة المرور
             </Link>

@@ -65,3 +65,8 @@ button {
   padding-top: 1.7rem !important;
 }
 
+.mainTitle {
+  color: var(--mainColor);
+  font-weight: bold;
+  font-size: 20px;
+}

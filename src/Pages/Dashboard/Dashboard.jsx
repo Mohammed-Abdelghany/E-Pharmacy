@@ -1,27 +1,11 @@
 import { Container } from "react-bootstrap";
 import style from "./Dashboard.module.css";
+import useDocumentTitle from "../../hooks/useDocumentTitle";
 const Dashboard = () => {
-  return <Container className={style.dashboard}>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-    <p>Hello</p>
-  </Container>;
+  useDocumentTitle( " الرئيسية");
+  return <div className={style.dashboard}>
+    
+  </div>;
 };
 
 export default Dashboard;

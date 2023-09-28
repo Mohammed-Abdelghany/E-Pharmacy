@@ -46,6 +46,7 @@ const Sidebar = ({ show }) => {
               <SideLink to="/stock">المخازن</SideLink>
               <SideLink to="/patients">المرضى</SideLink>
               <SideLink to="/reports">التقارير</SideLink>
+              <SideLink to="/add-new-account">إضافة حساب جديد</SideLink>
             </div>
           </div>
         </Col>

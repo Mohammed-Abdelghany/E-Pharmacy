@@ -9,7 +9,7 @@ import style from "../Layout/DefaultLayout/DefaultLayout.module.css";
 const Navbar = ({setShow , show}) => {
   return (
     <Row>
-      <Col className={`${style.navAll} px-md-5`}>
+      <Col className={`${style.navAll} px-md-5 `}>
         <Icon
           onClick={() => {
             setShow((d) => !d);

@@ -22,7 +22,9 @@ const DefaultLayout = () => {
           <Sidebar show={show} />
         <Col>
           <Navbar setShow={setShow} show={show}/>
+          <Container className="pt-4">
           <Outlet />
+          </Container>
         </Col>
       </Row>
     </div>
