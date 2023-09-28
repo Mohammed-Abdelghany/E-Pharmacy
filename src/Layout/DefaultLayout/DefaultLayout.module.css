@@ -1,0 +1,28 @@
+.default {
+  .sidebar {
+    background-color: var(--mainColor);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top:100px ;
+    min-height: 100vh;
+    .logo {
+      width: 130px !important;
+    }
+    & h4 {
+      font-size: 17px !important;
+      font-weight: bold;
+    }
+  }
+  .nav , .navAll{
+    height: 50px;
+    background-color: var(--mainColor);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
